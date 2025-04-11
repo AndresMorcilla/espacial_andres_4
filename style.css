@@ -1,0 +1,62 @@
+.menubtn {
+    background-color: #21006e;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .menu {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .menu-cont {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .menu-cont a {
+    color: rgb(0, 81, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 35px;
+  }
+  
+  .menu-cont a:hover {background-color: #ddd;}
+  
+  .menu:hover .menu-cont {display: block;}
+  
+  .menu:hover .menubtn {background-color: #2e009b;}
+
+.titula {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    background-color: #2e009b;
+    color:#f1f1f1;
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.submenu {
+    background-color: #21006e;
+    text-align: center;
+}
+
+#navesita {
+    position:absolute;
+}
+
+#animacion {
+    width: 100%;
+    height: 200px;
+    position:absolute;
+}
